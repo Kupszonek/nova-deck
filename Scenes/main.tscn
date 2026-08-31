@@ -1,0 +1,212 @@
+[gd_scene format=3 uid="uid://b3c2e2peb106g"]
+
+[ext_resource type="Script" uid="uid://df4potcpmeog6" path="res://Scenes/main.gd" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://b3rvfymkq55ux" path="res://UI/stream_button.tscn" id="2_8gbba"]
+[ext_resource type="PackedScene" uid="uid://lbp566ofm8hq" path="res://UI/settings.tscn" id="2_bo1nx"]
+[ext_resource type="Texture2D" uid="uid://dt7bbcpqx8ybb" path="res://Assets/Icons/Copy of NOVA Deck (3).svg" id="2_kry3j"]
+[ext_resource type="Texture2D" uid="uid://q55i7i128886" path="res://Assets/Icons/Copy of NOVA Deck.svg" id="4_kry3j"]
+
+[node name="Main" type="Node" unique_id=1718015679]
+script = ExtResource("1_jjgbg")
+
+[node name="Background" type="ColorRect" parent="." unique_id=480828916]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.07058824, 0.07058824, 0.07058824, 1)
+
+[node name="UI" type="Control" parent="." unique_id=1193662230]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="UI" unique_id=1105243526]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 28
+
+[node name="VB" type="VBoxContainer" parent="UI/MarginContainer" unique_id=1639837820]
+layout_mode = 2
+
+[node name="Header" type="HBoxContainer" parent="UI/MarginContainer/VB" unique_id=200340017]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+
+[node name="Logo" type="TextureRect" parent="UI/MarginContainer/VB/Header" unique_id=1425890325]
+custom_minimum_size = Vector2(128, 0)
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_visual_only = false
+texture = ExtResource("2_kry3j")
+expand_mode = 5
+
+[node name="LanguageButton" type="Button" parent="UI/MarginContainer/VB/Header" unique_id=2051836269]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+focus_mode = 0
+theme_override_font_sizes/font_size = 18
+text = "PL"
+flat = true
+
+[node name="StatusDot" type="Label" parent="UI/MarginContainer/VB/Header" unique_id=1995091156]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 8
+offset_transform_enabled = true
+offset_transform_position = Vector2(0, -6)
+theme_override_colors/font_color = Color(0.040456824, 0.5561638, 0.12257851, 1)
+theme_override_font_sizes/font_size = 50
+text = "●"
+horizontal_alignment = 1
+
+[node name="ButtonGrid" type="GridContainer" parent="UI/MarginContainer/VB" unique_id=783314874]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 16
+columns = 5
+
+[node name="StreamButton1" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1913564452 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+
+[node name="StreamButton2" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=588127274 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 2
+
+[node name="StreamButton3" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1628857254 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 3
+
+[node name="StreamButton4" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=2037250833 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 4
+
+[node name="StreamButton5" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1131517035 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 5
+
+[node name="StreamButton6" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=699162896 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 6
+
+[node name="StreamButton7" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=944428953 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 7
+
+[node name="StreamButton8" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1401243853 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 8
+
+[node name="StreamButton9" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=909250251 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 9
+
+[node name="StreamButton10" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=721905675 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 10
+
+[node name="StreamButton11" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1453861329 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 11
+
+[node name="StreamButton12" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1666336749 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 12
+
+[node name="StreamButton13" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=310205757 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 13
+
+[node name="StreamButton14" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=132975227 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 14
+
+[node name="StreamButton15" parent="UI/MarginContainer/VB/ButtonGrid" unique_id=1381787682 instance=ExtResource("2_8gbba")]
+layout_mode = 2
+button_id = 15
+
+[node name="Separator" type="Control" parent="UI/MarginContainer/VB" unique_id=762840213]
+custom_minimum_size = Vector2(0, 5)
+layout_mode = 2
+
+[node name="PageControls" type="HBoxContainer" parent="UI/MarginContainer/VB" unique_id=61447920]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 6
+
+[node name="LeftSpacer" type="Control" parent="UI/MarginContainer/VB/PageControls" unique_id=504656960]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Page1" type="Button" parent="UI/MarginContainer/VB/PageControls" unique_id=1495540709]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "1"
+
+[node name="Page2" type="Button" parent="UI/MarginContainer/VB/PageControls" unique_id=1512908668]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+text = "2"
+
+[node name="Page3" type="Button" parent="UI/MarginContainer/VB/PageControls" unique_id=1412628979]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+text = "3"
+
+[node name="Page4" type="Button" parent="UI/MarginContainer/VB/PageControls" unique_id=790107945]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+text = "4"
+
+[node name="RightSpacer" type="Control" parent="UI/MarginContainer/VB/PageControls" unique_id=65738500]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ResetButton" type="Button" parent="UI/MarginContainer/VB/PageControls" unique_id=1793862021]
+unique_name_in_owner = true
+layout_mode = 2
+text = "↻"
+flat = true
+
+[node name="Settings" parent="UI" unique_id=999348262 instance=ExtResource("2_bo1nx")]
+visible = false
+layout_mode = 1
+
+[node name="StatusIndicator" type="StatusIndicator" parent="." unique_id=730275544]
+tooltip = "NovaDeck"
+icon = ExtResource("4_kry3j")
+menu = NodePath("../TrayMenu")
+
+[node name="TrayMenu" type="PopupMenu" parent="." unique_id=1615334023]
+
+[node name="LanguageMenu" type="PopupMenu" parent="." unique_id=1588393856]
+unique_name_in_owner = true
+
+[node name="ResetConfirmDialog" type="ConfirmationDialog" parent="." unique_id=923962739]
+unique_name_in_owner = true
+title = "Reset konfiguracji"
+ok_button_text = "Wyczyść"
+dialog_text = "Czy na pewno chcesz wyczyścić wszystkie strony i przypisane przyciski?"
+cancel_button_text = "Anuluj"

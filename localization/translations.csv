@@ -1,0 +1,45 @@
+keys,pl,en
+SETTINGS,Ustawienia,Settings
+CONFIGURE_BUTTON,Konfiguracja przycisku,Button Configuration
+NAME,Nazwa,Name
+APPLICATION_PATH,Ścieżka,Path
+APP_NAME,Nazwa aplikacji,Application Name
+BROWSE,Przeglądaj,Browse
+CLEAR,Wyczyść,Clear
+CANCEL,Anuluj,Cancel
+SAVE,Zapisz,Save
+BUTTON,Przycisk,Button
+ARGUMENTS,Argumenty,Arguments
+TOOLBOX,Narzędzia,Toolbox
+OPEN,Otwórz,Open
+EXIT,Wyjdź,Exit
+RESET_PAGE,Wyczyść stronę,Reset page
+RESET_PAGE_CONFIRM,Czy na pewno chcesz wyczyścić wszystkie przyciski na aktualnej stronie?,Are you sure you want to clear all buttons on the current page?
+CONNECTED,Połączono,Connected
+DISCONNECTED,Nie połączono,Disconnected
+SHORTCUT,Skrót,Shortcut
+NONE,Brak,None
+PRESS_SHORTCUT,Naciśnij skrót...,Press shortcut...
+MANUAL,Ręcznie,Manual
+CHOOSE_SHORTCUT,Wybierz skrót,Choose shortcut
+KEY,Klawisz,Key
+APPLY,Zastosuj,Apply
+REMOVE_SHORTCUT_FIRST,Najpierw usuń skrót,Remove the shortcut first
+ESCAPE,Escape,Escape
+SPACE,Spacja,Space
+BACKSPACE,Backspace,Backspace
+INSERT,Wstaw,Insert
+DELETE_KEY,Delete,Delete
+HOME_KEY,Home,Home
+END_KEY,End,End
+PAGE_UP,Page Up,Page Up
+PAGE_DOWN,Page Down,Page Down
+ARROW_UP,Strzałka w górę,Arrow Up
+ARROW_DOWN,Strzałka w dół,Arrow Down
+ARROW_LEFT,Strzałka w lewo,Arrow Left
+ARROW_RIGHT,Strzałka w prawo,Arrow Right
+CAPS_LOCK,Caps Lock,Caps Lock
+NUM_LOCK,Num Lock,Num Lock
+SCROLL_LOCK,Scroll Lock,Scroll Lock
+PRINT_SCREEN,Print Screen,Print Screen
+PAUSE_KEY,Pauza,Pause

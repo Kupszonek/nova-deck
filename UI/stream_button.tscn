@@ -1,0 +1,124 @@
+[gd_scene format=3 uid="uid://b3rvfymkq55ux"]
+
+[ext_resource type="Script" uid="uid://gynt8e028lmf" path="res://UI/stream_button.gd" id="1_nqag5"]
+[ext_resource type="Shader" uid="uid://13ojr5luae3x" path="res://UI/stream_button.gdshader" id="2_6ihqm"]
+[ext_resource type="Texture2D" uid="uid://n17l0nkfjc7c" path="res://icon.svg" id="3_0ljk4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qnxqt"]
+bg_color = Color(0.09411765, 0.09411765, 0.09411765, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.2901961, 0.2901961, 0.2901961, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6oiva"]
+bg_color = Color(0.08627451, 0.08627451, 0.08627451, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.6901961, 0.14901961, 1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tl8ax"]
+bg_color = Color(0.101960786, 0.101960786, 0.101960786, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.44705883, 0.44705883, 0.44705883, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ird6c"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.6901961, 0.14901961, 1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nqag5"]
+shader = ExtResource("2_6ihqm")
+shader_parameter/radius = 0.12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_knj7o"]
+bg_color = Color(0, 0, 0, 0.21568628)
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="StreamButton" type="Button" unique_id=1913564452]
+custom_minimum_size = Vector2(96, 96)
+offset_right = 8.0
+offset_bottom = 8.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_qnxqt")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6oiva")
+theme_override_styles/hover = SubResource("StyleBoxFlat_tl8ax")
+theme_override_styles/focus = SubResource("StyleBoxFlat_ird6c")
+icon_alignment = 1
+script = ExtResource("1_nqag5")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=886387662]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_nqag5")
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = -6.0
+offset_bottom = -6.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_0ljk4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="NameBar" type="Panel" parent="." unique_id=731517816]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 18)
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_right = -2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_knj7o")
+
+[node name="NameLabel" type="Label" parent="NameBar" unique_id=179609737]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_right = -2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.9490196, 0.9490196, 0.9490196, 1)
+theme_override_font_sizes/font_size = 11
+text = "Godot"
+horizontal_alignment = 1
+vertical_alignment = 1
+text_overrun_behavior = 3
