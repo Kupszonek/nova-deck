@@ -6,6 +6,8 @@
   DIY 15-key macro deck powered by ESP32 and a custom Windows desktop application.
 </p>
 
+
+
 NOVA Deck is a DIY Stream Deck-style macro pad with **15 mechanical keys**, an ESP32 controller and a custom Windows desktop application built with Godot.
 
 It allows you to launch applications, execute keyboard shortcuts and configure up to **60 actions across 4 pages**.
