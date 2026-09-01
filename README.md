@@ -2,8 +2,6 @@
   <img src="https://github.com/user-attachments/assets/e7f3e857-77cf-4c6b-ac05-cfcff2d39c16" width="520" alt="NOVA Deck logo"/>
 </p>
 
-<h1 align="center">NOVA Deck</h1>
-
 <p align="center">
   DIY 15-key macro deck powered by ESP32 and a custom Windows desktop application.
 </p>
