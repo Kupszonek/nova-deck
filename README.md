@@ -1,4 +1,12 @@
-# NOVA Deck
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e7f3e857-77cf-4c6b-ac05-cfcff2d39c16" width="520" alt="NOVA Deck logo"/>
+</p>
+
+<h1 align="center">NOVA Deck</h1>
+
+<p align="center">
+  DIY 15-key macro deck powered by ESP32 and a custom Windows desktop application.
+</p>
 
 NOVA Deck is a DIY Stream Deck-style macro pad with **15 mechanical keys**, an ESP32 controller and a custom Windows desktop application built with Godot.
 
@@ -79,7 +87,7 @@ An **ESP32-C3 Super Mini mounting option** is also available, but this version i
 ## Wiring Diagram
 
 <p align="center">
-  <img width="1869" height="780" alt="NOVA Deck wiring diagram" src="https://github.com/user-attachments/assets/f33572a2-46b0-42bc-b3a2-760409ad30f7" />
+  <img src="https://github.com/user-attachments/assets/f33572a2-46b0-42bc-b3a2-760409ad30f7" width="1000" alt="NOVA Deck wiring diagram"/>
 </p>
 
 > **The wiring diagram is shown from the solder side (rear view).**  
@@ -131,7 +139,12 @@ Available controller mounting options:
 - ESP32-S3
 - ESP32-C3 Super Mini
 
-The MakerWorld page will contain the printable files, recommended print settings and additional information about the enclosure.
+The MakerWorld page will contain:
+
+- printable model files
+- recommended print settings
+- assembly information
+- controller mounting variants
 
 ---
 
@@ -309,38 +322,36 @@ All third-party software, libraries, assets and models remain subject to their r
 
 ## License
 
-### NOVA Deck Software & Firmware
+### Software & Firmware
 
 **Copyright © 2026 Kupszonek. All rights reserved.**
 
-The NOVA Deck desktop application, firmware, branding and original project code are owned and maintained by the NOVA Deck author.
+The NOVA Deck desktop application, firmware, source code, branding and documentation are owned and maintained by the NOVA Deck author.
 
-Unless explicit permission is granted, you may not:
+The official NOVA Deck software and firmware may be used for personal, non-commercial use.
 
-- redistribute the NOVA Deck software or firmware
+Without prior permission, you may not:
+
+- redistribute the NOVA Deck source code or compiled software
 - publish modified or derivative versions
 - repackage the software under another name
-- sell or sublicense the software
-- distribute unofficial builds using the NOVA Deck name or branding
+- sell, sublicense or commercially distribute the software
+- distribute unofficial builds using the NOVA Deck name, logo or branding
 
-The official NOVA Deck software and firmware may be used for personal use with NOVA Deck hardware.
+See [`LICENSE`](LICENSE) for the full software license.
 
-### NOVA Deck 3D Models
+### 3D Models
 
-The original NOVA Deck enclosure and other original NOVA Deck 3D models are licensed under:
+Original NOVA Deck enclosure and 3D models are licensed under:
 
 **CC BY-NC-ND 4.0 — Attribution-NonCommercial-NoDerivatives**
 
-This means you may download and print the original models for personal, non-commercial use.
+You may download and print the original models for personal, non-commercial use.
 
 You may not:
 
-- sell the NOVA Deck 3D models or printed versions commercially
+- sell the NOVA Deck models or printed versions commercially
 - redistribute modified or remixed versions
 - use the models as part of a commercial product
 
-More information about CC BY-NC-ND 4.0:
-
-https://creativecommons.org/licenses/by-nc-nd/4.0/
-
-Third-party models and assets, including the keycap generator linked above, are not covered by the NOVA Deck 3D model license and remain subject to their original licenses.
+Third-party models and assets, including the keycap generator linked above, remain subject to their respective licenses.
